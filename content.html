@@ -1,145 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="content.css">
-</head>
-<body>s
-   <!--Slide show-->
-<div id="carouselExampleDark" class="carousel slide carousel-fade">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="10000">
-      <img src="https://media.21cineplex.com/webcontent/gallery/pictures/170488259580933_925x527.jpg" class="d-block w-100">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Smart Lock</h5>
-        <p>Membuka Pintu bisa dengan Jari saja.</p>
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="content.css" />
+  </head>
+  <body>
+    <!--Slide show-->
+    <div
+      id="carouselExampleDark"
+      class="carousel slide carousel-fade container-md"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img
+            src="https://media.21cineplex.com/webcontent/gallery/pictures/170488259580933_925x527.jpg"
+            class="d-block w-100"
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img
+            src="https://media.21cineplex.com/webcontent/gallery/pictures/170554990092344_925x527.jpg"
+            class="d-block w-100"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://media.21cineplex.com/webcontent/gallery/pictures/170418059950402_925x527.jpg"
+            class="d-block w-100"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!--End Slide show-->
+    <!--Jumbotron-->
+    <div class="p-5 mb-4 bg-light rounded-3 container-md">
+      <h1 class="h1-text">Sedang Tayang</h1>
+    </div>
+    <!--End Jumbotron-->
+
+    <!--card-->
+    <div class="container">
+      <div class="card-film">
+        <a href="film/beekeeper.html" target="content">
+          <img
+            src="https://media.21cineplex.com/webcontent/gallery/pictures/170168721238114_287x421.jpg"
+            alt="Gambar Film"
+            class="gambar-film"
+          />
+        </a>
+        <div class="deskripsi-film">
+          <h2 class="judul-film">The Beekeeper</h2>
+          <p class="deskripsi">
+            Adam Clay (Jason Statham) adalah mantan anggota organisasi...
+          </p>
+          <p class="rating-17">D17+</p>
+        </div>
+      </div>
+      <div class="card-film">
+        <a href="film/ancika.html" target="content">
+          <img
+            src="https://media.21cineplex.com/webcontent/gallery/pictures/170065175535263_287x421.jpg"
+            alt="Gambar Film"
+            class="gambar-film"
+          />
+        </a>
+        <div class="deskripsi-film">
+          <h2 class="judul-film">Ancika: Dia yang Bersamaku 1995</h2>
+          <p class="deskripsi">
+            Di tahun 1995 DILAN si mantan panglima geng motor...
+          </p>
+          <p class="rating-13">R13+</p>
+        </div>
+      </div>
+      <div class="card-film">
+        <a href="film/bricklayer.html" target="content">
+          <img
+            src="https://media.21cineplex.com/webcontent/gallery/pictures/170126209213905_287x421.jpg"
+            alt="Gambar Film"
+            class="gambar-film"
+          />
+        </a>
+        <div class="deskripsi-film">
+          <h2 class="judul-film">The Bricklayer</h2>
+          <p class="deskripsi">
+            Steve Vail (Aaron Eckhart) adalah pensiunan CIA yang...
+          </p>
+          <p class="rating-17">D17+</p>
+        </div>
       </div>
     </div>
-    <div class="carousel-item" data-bs-interval="2000">
-      <img src="https://media.21cineplex.com/webcontent/gallery/pictures/170554990092344_925x527.jpg" class="d-block w-100">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Smart Light</h5>
-        <p>Dimana Lampu yang ada buat bisa di pasang di mana mana</p>
+    <!--End card-->
+    <!--Jumbotron-->
+    <div class="p-5 mb-4 bg-light rounded-3 container-md">
+      <h1 class="h1-text">Coming Soon</h1>
+    </div>
+    <!--End Jumbotron-->
+    <!--card-->
+    <div class="container">
+      <div class="card-film">
+        <a href="film/petualangan-nangkap-hantu.html" target="content">
+          <img
+            src="https://media.21cineplex.com/webcontent/gallery/pictures/170246714596120_287x421.jpg"
+            alt="Gambar Film"
+            class="gambar-film"
+          />
+        </a>
+        <div class="deskripsi-film">
+          <h2 class="judul-film">Petualangan Anak Penangkap Hantu</h2>
+          <p class="deskripsi">
+            RAFI (Muzakki Ramdhan), CHACHA (Giselle Tambunan) dan ZIDAN...
+          </p>
+          <p class="rating-su">SU</p>
+        </div>
+      </div>
+      <div class="card-film">
+        <a href="film/fighter.html" target="content">
+          <img
+            src="https://media.21cineplex.com/webcontent/gallery/pictures/170506023679851_287x421.jpg"
+            alt="Gambar Film"
+            class="gambar-film"
+          />
+        </a>
+        <div class="deskripsi-film">
+          <h2 class="judul-film">Fighter</h2>
+          <p class="deskripsi">
+            Penerbang top IAF berkumpul untuk menghadapi bahaya...
+          </p>
+          <p class="rating-17">R17+</p>
+        </div>
+      </div>
+      <div class="card-film">
+        <a href="film/ootd.html" target="content">
+          <img
+            src="https://media.21cineplex.com/webcontent/gallery/pictures/170427997988011_287x421.jpg"
+            alt="Gambar Film"
+            class="gambar-film"
+          />
+        </a>
+        <div class="deskripsi-film">
+          <h2 class="judul-film">#OOTD: Outfit of The Designer</h2>
+          <p class="deskripsi">
+            Tersesat di antara kehancuran dan ketidakpastian, seorang...
+          </p>
+          <p class="rating-17">R17+</p>
+        </div>
+      </div>
+      <div class="card-film">
+        <a href="film/aquaman.html" target="content">
+          <img
+            src="https://media.21cineplex.com/webcontent/gallery/pictures/170141197771830_287x421.jpg"
+            alt="Gambar Film"
+            class="gambar-film"
+          />
+        </a>
+        <div class="deskripsi-film">
+          <h2 class="judul-film">Aquaman and the Lost Kingdom</h2>
+          <p class="deskripsi">
+            Arthur Curry (Jason Momoa) harus kembali melawan Black Manta...
+          </p>
+          <p class="rating-13">R13+</p>
+        </div>
+      </div>
+      <div class="card-film">
+        <a href="film/sound-of-freedom.html" target="content">
+          <img
+            src="https://media.21cineplex.com/webcontent/gallery/pictures/170529800836805_287x421.jpg"
+            alt="Gambar Film"
+            class="gambar-film"
+          />
+        </a>
+        <div class="deskripsi-film">
+          <h2 class="judul-film">Sound of Freedom</h2>
+          <p class="deskripsi">
+            Dari kisah nyata yang luar biasa tentang seorang usaha...
+          </p>
+          <p class="rating-13">R13+</p>
+        </div>
       </div>
     </div>
-    <div class="carousel-item">
-      <img src="https://media.21cineplex.com/webcontent/gallery/pictures/170418059950402_925x527.jpg" class="d-block w-100">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Smart CCTV</h5>
-        <p>kamera Yang bisa kamu lihat dari mana saja.</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-<!--End Slide show-->
-
-<!--Jumbotron-->
-<div class="p-5 mb-4 bg-light rounded-3">
-    <h1 class="h1-text">Sedang Tayang</h1>
-  </div>
-<!--End Jumbotron-->
-
-<!--card-->
-<div class="container">
-    <div class="card-film">
-       <a href="link-film" target="_blank">
-         <img src="https://media.21cineplex.com/webcontent/gallery/pictures/170168721238114_287x421.jpg" alt="Gambar Film" class="gambar-film">
-       </a>
-       <div class="deskripsi-film">
-         <h2 class="judul-film">Judul Film</h2>
-         <p class="deskripsi">Deskripsi singkat film</p>
-         <p class="rating-17">D17+</p>
-       </div>
-    </div>
-    <div class="card-film">
-       <a href="link-film" target="_blank">
-        <img src="https://media.21cineplex.com/webcontent/gallery/pictures/170065175535263_287x421.jpg" alt="Gambar Film" class="gambar-film">
-       </a>
-       <div class="deskripsi-film">
-         <h2 class="judul-film">Judul Film</h2>
-         <p class="deskripsi">Deskripsi singkat film</p>
-         <p class="rating-13">R13+</p>
-       </div>
-    </div>
-    <div class="card-film">
-       <a href="link-film" target="_blank">
-         <img src="https://media.21cineplex.com/webcontent/gallery/pictures/170065175535263_287x421.jpg" alt="Gambar Film" class="gambar-film">
-       </a>
-       <div class="deskripsi-film">
-         <h2 class="judul-film">Judul Film</h2>
-         <p class="deskripsi">Deskripsi singkat film</p>
-         <p class="rating-13">R13+</p>
-       </div>
-    </div>
-    <div class="card-film">
-       <a href="link-film" target="_blank">
-         <img src="https://media.21cineplex.com/webcontent/gallery/pictures/170246714596120_287x421.jpg" alt="Gambar Film" class="gambar-film">
-       </a>
-       <div class="deskripsi-film">
-         <h2 class="judul-film">Judul Film</h2>
-         <p class="deskripsi">Deskripsi singkat film</p>
-         <p class="rating-13">R13+</p>
-       </div>
-    </div>
-    <div class="card-film">
-       <a href="link-film" target="_blank">
-         <img src="https://media.21cineplex.com/webcontent/gallery/pictures/170168721238114_287x421.jpg" alt="Gambar Film" class="gambar-film">
-       </a>
-       <div class="deskripsi-film">
-         <h2 class="judul-film">Judul Film</h2>
-         <p class="deskripsi">Deskripsi singkat film</p>
-         <p class="rating-17">D17+</p>
-       </div>
-    </div>
-    <div class="card-film">
-       <a href="link-film" target="_blank">
-        <img src="https://media.21cineplex.com/webcontent/gallery/pictures/170065175535263_287x421.jpg" alt="Gambar Film" class="gambar-film">
-       </a>
-       <div class="deskripsi-film">
-         <h2 class="judul-film">Judul Film</h2>
-         <p class="deskripsi">Deskripsi singkat film</p>
-         <p class="rating-13">R13+</p>
-       </div>
-    </div>
-    <div class="card-film">
-       <a href="link-film" target="_blank">
-         <img src="https://media.21cineplex.com/webcontent/gallery/pictures/170065175535263_287x421.jpg" alt="Gambar Film" class="gambar-film">
-       </a>
-       <div class="deskripsi-film">
-         <h2 class="judul-film">Judul Film</h2>
-         <p class="deskripsi">Deskripsi singkat film</p>
-         <p class="rating-13">R13+</p>
-       </div>
-    </div>
-    <div class="card-film">
-       <a href="link-film" target="_blank">
-         <img src="https://media.21cineplex.com/webcontent/gallery/pictures/170246714596120_287x421.jpg" alt="Gambar Film" class="gambar-film">
-       </a>
-       <div class="deskripsi-film">
-         <h2 class="judul-film">Judul Film</h2>
-         <p class="deskripsi">Deskripsi singkat film</p>
-         <p class="rating-su">SU</p>
-       </div>
-    </div>
-
-   </div>
-  <!--End card-->
-
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
- 
-</body>
+    <!--End card-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
